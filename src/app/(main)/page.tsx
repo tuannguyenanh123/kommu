@@ -8,7 +8,8 @@ export default async function Home() {
     return redirect(Routes.Auth)
   }
 
-  const userWorkspaceId = user.workplaces?.[0]
+  const userWorkspaceId = user.workspaces?.[0]
+  
   if(!userWorkspaceId) {
     return redirect(Routes.CreateWorkspace)
   }
