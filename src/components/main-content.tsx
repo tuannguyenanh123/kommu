@@ -10,7 +10,7 @@
    const { theme } = useTheme();
    const { color } = useColorPrefrences();
  
-   let backgroundColor = 'bg-primary-dark';
+   let backgroundColor = 'bg-primary';
    if (color === 'green') {
      backgroundColor = 'bg-green-700';
    } else if (color === 'blue') {

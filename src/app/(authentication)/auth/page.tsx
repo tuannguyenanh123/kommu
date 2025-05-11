@@ -152,7 +152,7 @@ const AuthPage = () => {
 
                 <Button
                   variant="secondary"
-                  className="bg-primary-dark hover:bg-primary-dark/90 w-full my-5 cursor-pointer"
+                  className="bg-primary hover:bg-primary/90 text-white w-full my-5 cursor-pointer"
                   type="submit"
                 >
                   <Typography text="Sign in with Email" variant="p" />
